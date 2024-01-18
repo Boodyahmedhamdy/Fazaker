@@ -32,7 +32,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun EmadApp(
+fun FazakerApp(
     modifier: Modifier = Modifier
 ) {
     var currentScore by remember {
@@ -128,6 +128,6 @@ fun PrayListItem(
 
 @Preview(showSystemUi = true, showBackground = true)
 @Composable
-fun EmadAppPreview() {
-    EmadApp()
+fun FazakerAppPreview() {
+    FazakerApp()
 }
